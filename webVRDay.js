@@ -54,28 +54,28 @@ var setReadyEvents = function(event) {
 };
 
 var setOnClickEvents = function(event) {
-  if (event.id == 'reading-spot') {
-    theLareAlert("This is my reading spot")
+  if (event.id == 'kitchen') {
+    theLareAlert("This door leads to the kitchen/living room.")
   }
 
-  if (event.id == 'self-reflect') {
-    theLareAlert('Sometimes I self reflect to improve myself');
+  if (event.id == 'shelf') {
+    theLareAlert('I put my stuff in here.');
   }
 
-  if (event.id == 'better-off-ted') {
-    theLareAlert('Better Off Ted keeps me connected to the corporate world');
+  if (event.id == 'sister') {
+    theLareAlert('This is my sister side of bed room.');
   }
 
-  if (event.id == 'drawing-aquarium') {
-    theLareAlert('Come checkout my imagination!!');
+  if (event.id == 'transported') {
+    theLareAlert('Great, now your stuck in my drawing.');
   }
 
-  if (event.id == 'hydrating') {
-    theLareAlert('You have to hydrate as an adult!');
+  if (event.id == 'window') {
+    theLareAlert('Sometimes I like to open the shades when its sunny outside.');
   }
 
-  if (event.id == 'half-cleaning') {
-    theLareAlert('I like to half clean after I cook');
+  if (event.id == 'my side') {
+    theLareAlert('This is my side of the bedroom.');
   }
 
   if (event.id == 'drawing-aquarium') {
