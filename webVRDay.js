@@ -63,11 +63,15 @@ var setOnClickEvents = function(event) {
   }
 
   if (event.id == 'sister') {
-    theLareAlert('This is my sister side of bed room.');
+    theLareAlert('This is my sisters side of bed room.');
   }
 
   if (event.id == 'transported') {
     theLareAlert('Great, now your stuck in my drawing.');
+    vrHomePage.setContent({
+      image: '2017-08-11_23.46.12.jpg',
+      is_stereo: true
+    });
   }
 
   if (event.id == 'window') {
@@ -80,12 +84,6 @@ var setOnClickEvents = function(event) {
 
   if (event.id == 'drawing-aquarium') {
     console.log('adding events for aquarium');
-
-    vrHomePage.setContent({
-      image: 'assets/dolphins.jpg',
-      preview: 'assets/dolphins.jpg',
-      is_stereo: true
-    });
 
     vrHomePage.addHotspot('hotspot-back', {
       pitch: 0,
