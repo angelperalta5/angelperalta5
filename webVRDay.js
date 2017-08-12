@@ -10,7 +10,7 @@ window.addEventListener('load', vrHomePage);
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
 
-  vrHomePage.addHotspot('reading-spot', {
+  vrHomePage.addHotspot('kitchen', {
     pitch: -10,
     yaw: -30,
     radius: 0.10,
