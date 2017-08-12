@@ -1,4 +1,4 @@
-var vrHomePage = vRViewPlayer('#vr-jesus-room', {
+var vrHomePage = vRViewPlayer('#vr-homepage', {
   image: '1.jpg',
    preview: '1.jpg',
   is_stereo: false,
