@@ -24,14 +24,14 @@ var setReadyEvents = function(event) {
     distance: 1
   });
 
-  vrHomePage.addHotspot('better-off-ted', {
+  vrHomePage.addHotspot('sister', {
     pitch: 0,
     yaw: -150,
     radius: 0.10,
     distance: 1
   });
 
-  vrHomePage.addHotspot('drawing-aquarium', {
+  vrHomePage.addHotspot('transported', {
     pitch: 0,
     yaw: 140,
     radius: 0.10,
