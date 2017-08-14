@@ -17,7 +17,7 @@ var setReadyEvents = function(event) {
     distance: 1
   });
 
-  vrHomePage.addHotspot('self-reflect', {
+  vrHomePage.addHotspot('shelf', {
     pitch: 89,
     yaw: -100,
     radius: 0.10,
