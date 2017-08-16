@@ -70,7 +70,7 @@ var setOnClickEvents = function(event) {
     alert('Great, now your stuck in my drawing.');
     vrHomePage.setContent({
       image: '2017-08-11_23.46.12.jpg',
-      is_stereo: true
+      is_stereo: false
     });
   }
 
@@ -79,7 +79,7 @@ var setOnClickEvents = function(event) {
   }
 
   if (event.id == 'my side') {
-    theLareAlert('This is my side of the bedroom.');
+    alert('This is my side of the bedroom.');
   }
 
   if(event.id == 'hotspot-back') {
