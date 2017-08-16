@@ -74,7 +74,7 @@ var setOnClickEvents = function(event) {
     });
     
     vrHomePage.addHotspot('hotspot-back', {
-    pitch: 0,
+    pitch: 180,
     yaw: 0,
     radius: 0.10,
     distance: 1
