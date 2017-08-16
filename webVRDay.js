@@ -38,14 +38,14 @@ var setReadyEvents = function(event) {
     distance: 1
   });
 
-  vrHomePage.addHotspot('my side', {
+  vrHomePage.addHotspot('window', {
     pitch: 0,
     yaw: 90,
     radius: 0.10,
     distance: 1
   });
 
-  vrHomePage.addHotspot('half-cleaning', {
+  vrHomePage.addHotspot('my side', {
     pitch: 0,
     yaw: 30,
     radius: 0.10,
@@ -55,19 +55,19 @@ var setReadyEvents = function(event) {
 
 var setOnClickEvents = function(event) {
   if (event.id == 'kitchen') {
-    theLareAlert("This door leads to the kitchen/living room.")
+    alert("This door leads to the kitchen/living room.")
   }
 
   if (event.id == 'shelf') {
-    theLareAlert('I put my stuff in here.');
+    alert('I put my stuff in here.');
   }
 
   if (event.id == 'sister') {
-    theLareAlert('This is my sisters side of bed room.');
+    alert('This is my sisters side of bed room.');
   }
 
   if (event.id == 'transported') {
-    theLareAlert('Great, now your stuck in my drawing.');
+    alert('Great, now your stuck in my drawing.');
     vrHomePage.setContent({
       image: '2017-08-11_23.46.12.jpg',
       is_stereo: true
@@ -75,22 +75,11 @@ var setOnClickEvents = function(event) {
   }
 
   if (event.id == 'window') {
-    theLareAlert('Sometimes I like to open the shades when its sunny outside.');
+    alert('Sometimes I like to open the shades when its sunny outside.');
   }
 
   if (event.id == 'my side') {
     theLareAlert('This is my side of the bedroom.');
-  }
-
-  if (event.id == 'drawing-aquarium') {
-    console.log('adding events for aquarium');
-
-    vrHomePage.addHotspot('hotspot-back', {
-      pitch: 0,
-      yaw: 0,
-      radius: 0.10,
-      distance: 1
-    });
   }
 
   if(event.id == 'hotspot-back') {
