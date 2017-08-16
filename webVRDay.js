@@ -38,7 +38,7 @@ var setReadyEvents = function(event) {
     distance: 1
   });
 
-  vrHomePage.addHotspot('hydrating', {
+  vrHomePage.addHotspot('my side', {
     pitch: 0,
     yaw: 90,
     radius: 0.10,
