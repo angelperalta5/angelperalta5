@@ -72,6 +72,14 @@ var setOnClickEvents = function(event) {
       image: '2017-08-11_23.46.12.jpg',
       is_stereo: false
     });
+    
+    vrHomePage.addHotspot('shelf', {
+    pitch: 0,
+    yaw: 0,
+    radius: 0.10,
+    distance: 1
+  });
+
   }
 
   if (event.id == 'window') {
